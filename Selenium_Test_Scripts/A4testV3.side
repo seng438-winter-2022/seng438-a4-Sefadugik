@@ -1,1 +1,1708 @@
 
+{
+  "id": "47ac54e6-e3b0-4e2c-b539-c7a113eb52d7",
+  "version": "2.0",
+  "name": "A4test",
+  "url": "https://www.walmart.ca/en",
+  "tests": [{
+    "id": "71f15197-10b3-4973-bce8-48bcace5536c",
+    "name": "testLoginW",
+    "commands": [{
+      "id": "d4ae8f18-dbc8-40ce-aa92-ef81762250d7",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23b4693e-8fa8-4576-9e35-b09140dd0e73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d533351-db60-4391-a2c6-1fa918982db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vfxkzw",
+      "targets": [
+        ["css=.css-vfxkzw", "css:finder"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd677b7d-2923-409c-adfb-c6dbf574a1ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kevinbratislava99@gmail.com"
+    }, {
+      "id": "beae1e54-07d3-4c26-aacb-4849ce84fc39",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "nNymzF62-uiG+wc"
+    }, {
+      "id": "c5824528-71c6-42b4-ace2-cf5f0c6434b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vfxkzw",
+      "targets": [
+        ["css=.css-vfxkzw", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90c5ef4-4757-4e8f-b9f3-5d68d5d56e46",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,99.19999694824219)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "773792b8-cf83-4c14-b196-16026a32a482",
+    "name": "TestFlyerW",
+    "commands": [{
+      "id": "3e07cd74-1c11-471f-85ee-78e87827a3a1",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36a68a31-06e2-48bd-b520-929301dcfd93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a52168-a411-494a-a759-d1390d0fc50b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e18kvv91",
+      "targets": [
+        ["css=.e18kvv91", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1919e2ce-3814-4ba5-9210-a34b0a80d743",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c86a5e-eb8f-4d5d-b5cd-c6dc20c66bed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i18n_en > #other_flyer_runs .flyer_run_776023 > .info",
+      "targets": [
+        ["css=.i18n_en > #other_flyer_runs .flyer_run_776023 > .info", "css:finder"],
+        ["xpath=//div[@id='other_flyer_runs']/div/div/div/div[2]/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9862d7aa-fdab-4a36-9edb-bd12010f084a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flatsheettopbar-pdf",
+      "targets": [
+        ["css=.flatsheettopbar-pdf", "css:finder"],
+        ["xpath=//div[@id='wishabi-flyerarea']/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "856bc4f1-eb42-412a-9360-c87336f2c2dd",
+    "name": "TestLoginB",
+    "commands": [{
+      "id": "690eec7d-a629-4c36-9c7a-59d94b1386b3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d48a58e-3dd3-4b35-b2c6-69c2d9e908f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d10d04a2-6e99-4f5b-8f04-c6e23c01f2f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountLabel_2-flX",
+      "targets": [
+        ["css=.accountLabel_2-flX", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97169a8a-572c-4a8c-89d8-d17e003b7603",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a63100-cf44-4816-a3cc-4f483560f8bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "uuxqexyiihmvysldxr@nvhrw.com"
+    }, {
+      "id": "7b3143be-f86a-462f-937b-ae8526e6bb02",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e000de73-f267-4dfd-a0af-aefdcc7c8257",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "test123!"
+    }, {
+      "id": "a8ef3bf9-c9ff-4555-84f1-26e4f1df0e3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm > span",
+      "targets": [
+        ["css=.GSYpm > span", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5798b6a1-22f8-4542-a580-b37dfa02331c",
+    "name": "testOrderB",
+    "commands": [{
+      "id": "fe9b1fad-0cb6-4e6a-bb0f-28eb0e46a063",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a72802-70da-44c8-8fe1-0f7d21c04e8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "effa8961-958b-46ca-9fe6-34d058bc758a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contentContainer_3jS31:nth-child(2) > .featureBanner_1l_vc .content_3Dbgg",
+      "targets": [
+        ["css=.contentContainer_3jS31:nth-child(2) > .featureBanner_1l_vc .content_3Dbgg", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div[2]/section[2]/div/section[2]/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pre-Order Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f8407bb-07be-4ae1-830f-43a3d9546c94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,369.9200134277344)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a631830-f27c-4b33-a23c-5da8c72991e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12_198le:nth-child(1) .sliderTarget_2Q87g:nth-child(1)",
+      "targets": [
+        ["css=.col-xs-12_198le:nth-child(1) .sliderTarget_2Q87g:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/main/div/div[3]/div[2]/div[2]/ul/div/div/div/a/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "836441c6-d792-4e2b-b021-f35c5918ad43",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54e2b049-58d2-4502-885f-7d562280c560",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300.1600036621094)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d156888f-d45b-443f-a857-d750d7832b47",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.variantOptionBox_XwOaP:nth-child(2) .thumbnailInnerWrapper_23S3R",
+      "targets": [
+        ["css=.variantOptionBox_XwOaP:nth-child(2) .thumbnailInnerWrapper_23S3R", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45da7d08-6468-4b23-a738-15c9071f02f6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.variantOptionBox_XwOaP:nth-child(2) .thumbnailInnerWrapper_23S3R",
+      "targets": [
+        ["css=.variantOptionBox_XwOaP:nth-child(2) .thumbnailInnerWrapper_23S3R", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a495fe99-8274-443f-b766-5eeb4360482c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.variantOptionBox_XwOaP:nth-child(3) .sliderTarget_2Q87g",
+      "targets": [
+        ["css=.variantOptionBox_XwOaP:nth-child(3) .sliderTarget_2Q87g", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div[3]/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d06cb89-5616-4ec8-9f46-59206d116ea0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f91002b-de43-4f05-97fa-a682505021ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6.400000095367432)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99fe7374-ec27-47c5-bce4-753953c08d47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addToCartLabel_YZaVX",
+      "targets": [
+        ["css=.addToCartLabel_YZaVX", "css:finder"],
+        ["xpath=//form[@id='test']/button/span/div", "xpath:idRelative"],
+        ["xpath=//button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39679a70-27ee-48b5-b96c-8c7312291d88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeIcon path:nth-child(1)",
+      "targets": [
+        ["css=.closeIcon path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c0807b43-e12f-414f-8351-d9e5906ecac6",
+    "name": "testAddProductS",
+    "commands": [{
+      "id": "86e333c1-0b4d-45e2-b51f-d11f745257cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48906ad5-e07b-4730-aee4-b6d96e357ca1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9dab87c-5905-4a80-b841-f8ff07a00529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(4) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(4) .main-menu__text", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0fb94e8-c78a-4356-a5b4-96eb6554762f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See All Categories",
+      "targets": [
+        ["linkText=See All Categories", "linkText"],
+        ["css=.page-nav__section:nth-child(1) > .page-nav__link_see-all", "css:finder"],
+        ["xpath=//a[contains(text(),'See All Categories')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/categories/men/footwear.html')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'See All Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c789903-1d1d-4baf-8813-bf770b62300c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,229.1199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69a89f26-8607-4e5c-be92-fda810ca4133",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-category-tile__item:nth-child(8) .product-category-tile__name",
+      "targets": [
+        ["css=.product-category-tile__item:nth-child(8) .product-category-tile__name", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Soccer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f334ac-da63-47f5-ab78-183320858669",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.shop-my-store__label-store",
+      "targets": [
+        ["css=.shop-my-store__label-store", "css:finder"],
+        ["xpath=//a[contains(text(),'Westbrook Mall Sport Chek')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div/div[2]/div[3]/label/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da270250-5291-45be-aa2c-c1d3eebc65bd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.shop-my-store__label-store",
+      "targets": [
+        ["css=.shop-my-store__label-store", "css:finder"],
+        ["xpath=//a[contains(text(),'Westbrook Mall Sport Chek')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div/div[2]/div[3]/label/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//label/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec12bd2f-8cde-4a4f-a870-3882785d2358",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(1) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(1) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"adidas Men's Copa 21.3 Superlative Firm Ground Cleats - Black/White/Yellow\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[4]/div[3]/div/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "047bb70d-82cc-4047-877c-ca30810fd0b5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,281.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bab9359-68c8-49ed-b8f1-300beb98c8c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=7.5",
+      "targets": [
+        ["linkText=7.5", "linkText"],
+        ["css=.option-tiles__item:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[24]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'7.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bf19ef3-8f1e-411a-9fb8-d871acd57fe8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=7.5",
+      "targets": [
+        ["linkText=7.5", "linkText"],
+        ["css=.option-tiles__item:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[24]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'7.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1fee2c-1e29-4d73-b470-8f6f7e00f080",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.option-tiles__item:nth-child(6) > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item:nth-child(6) > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[6]/span", "xpath:idRelative"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'9.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d8b7eab-b039-4edc-9ba5-c6beac895fda",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.option-tiles__item:nth-child(6) > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item:nth-child(6) > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[6]/span", "xpath:idRelative"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'9.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f3206aa-b6d9-4434-b0d3-d1ee5812524b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.option-tiles__item:nth-child(10) > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item:nth-child(10) > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[10]/span", "xpath:idRelative"],
+        ["xpath=//a[10]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'11.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49f7b81-ebe5-4d17-b224-510e91ed4baf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option-tiles__item:nth-child(10) > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item:nth-child(10) > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[10]/span", "xpath:idRelative"],
+        ["xpath=//a[10]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'11.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f04fc3d-f4f4-4c7b-8eff-4d8c28c58164",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.option-tiles__item--selected > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item--selected > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[10]/span", "xpath:idRelative"],
+        ["xpath=//a[10]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'11.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3130592-629a-47a7-9a21-f5dff2332794",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.option-tiles__item--selected > .option-tiles__item-title",
+      "targets": [
+        ["css=.option-tiles__item--selected > .option-tiles__item-title", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div/div/fieldset[2]/div/div/a[10]/span", "xpath:idRelative"],
+        ["xpath=//a[10]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'11.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6f48e27-526a-431f-bb73-cf1269eb4294",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[4]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee7deb4-e29e-4d35-a99e-805c34b6a742",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,498.55999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1418ad4-a190-43e7-b3df-7ffadcd5d495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-cart__trigger",
+      "targets": [
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "57bb8e3f-3ea8-4e12-9ab9-a11ed1f66e5e",
+    "name": "testPickupW",
+    "commands": [{
+      "id": "929008fa-7425-4fb7-a9b5-494eabee28d6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed998a5-fc56-4548-89d7-560f033cafac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd8e8438-72c3-4a90-afc5-b015278cb35d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1k7qv8r",
+      "targets": [
+        ["css=.css-1k7qv8r", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71fe8cbb-2b1c-4b04-b2f9-b559d6e4b476",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ek6bj212",
+      "targets": [
+        ["css=.ek6bj212", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f987523c-71d6-498e-a0ad-ceefdb5f7c83",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ek6bj212",
+      "targets": [
+        ["css=.ek6bj212", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42d6d935-e919-4f36-80e5-6d787dee6d6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ek6bj211",
+      "targets": [
+        ["css=.ek6bj211", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df08cae9-180d-43a9-bcb2-903fb813d13d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ek6bj211",
+      "targets": [
+        ["css=.ek6bj211", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4694a8b-040e-40f3-adcf-81e0eaa2a5a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xs1lgt:nth-child(1) .css-94au6a",
+      "targets": [
+        ["css=.css-xs1lgt:nth-child(1) .css-94au6a", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use this location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb6da24-9190-49db-80a5-dc9b2c78996b",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='pickup-customer-form']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "074d4b4d-ed86-4bd9-b0a2-d877f744b8e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='pickup-customer-form']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Benson"
+    }, {
+      "id": "60093f7b-283b-4bd1-9466-f97af211ccb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='pickup-customer-form']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Li"
+    }, {
+      "id": "e19477c8-a301-4664-9eb1-363fe81a85c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobileNumber",
+      "targets": [
+        ["id=mobileNumber", "id"],
+        ["css=#mobileNumber", "css:finder"],
+        ["xpath=//input[@id='mobileNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='pickup-customer-form']/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "8253651458"
+    }, {
+      "id": "bbbaa3fc-7155-4eb5-9f7d-9d30f6ffce17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17w8l66",
+      "targets": [
+        ["css=.css-17w8l66", "css:finder"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "831cff9b-bbbd-45ba-a126-9ff15ef68723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-j7qwjs:nth-child(4) .css-1nzngts:nth-child(3)",
+      "targets": [
+        ["css=.css-j7qwjs:nth-child(4) .css-1nzngts:nth-child(3)", "css:finder"],
+        ["xpath=//div[4]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "951eb7a3-2744-4274-af5a-36aa31f07bc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ts-row-1-col-1",
+      "targets": [
+        ["id=ts-row-1-col-1", "id"],
+        ["css=#ts-row-1-col-1", "css:finder"],
+        ["xpath=//td[@id='ts-row-1-col-1']", "xpath:attributes"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'FREE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22c8ffe7-7493-492b-9952-d0cdaf6494cd",
+    "name": "testDirectionsW",
+    "commands": [{
+      "id": "bcc56682-fa4c-4bb1-b000-5da53404b5a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a317dc8-304f-48ec-93a5-90f276ea155d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8780c9c6-1ec5-43e8-a517-17643e21421d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36ba505-6eb7-430f-b598-015e2e23854a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sfa-store-list-item-3009 .sfa-store-list-item__name",
+      "targets": [
+        ["css=#sfa-store-list-item-3009 .sfa-store-list-item__name", "css:finder"],
+        ["xpath=//div[@id='sfa-store-list-item-3009']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Westbrook Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f10c70-af7c-4c60-a865-54bf6c1f1a03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.get-direction",
+      "targets": [
+        ["css=.get-direction", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[4]/div[4]/div/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6630",
+      "windowTimeout": 2000
+    }, {
+      "id": "327e3fd5-dbed-4e99-b708-b172919f075b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6630}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "54a4aecd-bc81-41aa-bd52-eb3bbe41f00a",
+    "name": "testLoginS",
+    "commands": [{
+      "id": "5eee54c9-a562-455b-a850-231a12fd7984",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e74712f5-b826-4c93-9e8a-54a939ca4574",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x854",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bb92656-a37a-43fc-9cdc-d6f813cdbfd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f23d50-217f-47b0-a342-d04808d6a3a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-account__button_sign-in",
+      "targets": [
+        ["css=.enterprise-account__button_sign-in", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "729285a0-cc74-4ee0-8f60-c717957b87ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=#CIAM-LoginSignIn > .gigya-screen:nth-child(1) .gigya-input-text", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "bdc08887-d075-4277-ad6a-77e803192595",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.gigya-screen:nth-child(1) .gigya-input-password:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "6431d863-112a-4150-94fa-b84296ef59c6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ciam-hidden > .gigya-input-text",
+      "targets": [
+        ["css=.ciam-hidden > .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[13]/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "051a0664-6305-460b-866e-1dc3958f4fe5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.password-welcome-back > .gigya-input-password",
+      "targets": [
+        ["css=.password-welcome-back > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[13]/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "a43964da-18c4-4c77-8746-62c97d806061",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-screen:nth-child(15) .gigya-input-text",
+      "targets": [
+        ["css=.gigya-screen:nth-child(15) .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[15]/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[15]/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "233dfa11-ead7-43a1-b35a-fca1d79e7727",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-screen:nth-child(15) .gigya-input-password",
+      "targets": [
+        ["css=.gigya-screen:nth-child(15) .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[15]/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[15]/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "0941cf8a-71fe-4061-b921-da386989efae",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-valid",
+      "targets": [
+        ["css=.gigya-valid", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "550a8574-ceb3-43c5-a08f-f700632f819c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "a4d5280f-7a1c-452f-9ead-32dce0a86515",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='SIGN IN']", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92de3524-a93f-4164-a086-2e3130dc061d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef6120c-e0e4-4c00-b86b-3ec303521bab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "422ccc16-fc7e-4b05-9b31-7d7f7343be54",
+    "name": "TestBadLoginS",
+    "commands": [{
+      "id": "9548e0db-5344-4f1e-b4ee-f257ecfc0b8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "721f8feb-ef13-40ba-bfce-99df38e6cb20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e0df96a-7c60-4c92-90ab-2cf5e60c6f2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(4) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(4) .main-menu__text", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Men')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d9563b-b419-4a30-8cdd-7ed8b5deaa4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Running",
+      "targets": [
+        ["linkText=Running", "linkText"],
+        ["css=.page-nav__section:nth-child(1) .page-nav__item:nth-child(1) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Running')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/men/footwear/running-shoes.html')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Running')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7877935-c0cb-44dc-b9c3-fcb6a3ce93c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Kids",
+      "targets": [
+        ["linkText=Kids", "linkText"],
+        ["css=.page-nav__item:nth-child(5) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, '/categories/kids')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kids')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e53731ef-a6f6-4c3f-9c74-d2f2ffafee76",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Kids",
+      "targets": [
+        ["linkText=Kids", "linkText"],
+        ["css=.page-nav__item:nth-child(5) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, '/categories/kids')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kids')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0c61eb-b1fb-43c4-b101-e01c09cdf087",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-account__button_sign-in",
+      "targets": [
+        ["css=.enterprise-account__button_sign-in", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7f07f14-e137-4315-8b42-cc9e98a25526",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=#CIAM-LoginSignIn > .gigya-screen:nth-child(1) .gigya-input-text", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "dbbb8111-9db8-466b-b4cd-461a4c401742",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.gigya-screen:nth-child(1) .gigya-input-password:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "a29b80f9-1ff9-4288-a26a-f7f3d5fab5b8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ciam-hidden > .gigya-input-text",
+      "targets": [
+        ["css=.ciam-hidden > .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[13]/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "b2c3c681-0ec5-40f8-8176-9725445a30d8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.password-welcome-back > .gigya-input-password",
+      "targets": [
+        ["css=.password-welcome-back > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[13]/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "da4b897c-8660-4dde-93f5-c609f30c289b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-screen:nth-child(15) .gigya-input-text",
+      "targets": [
+        ["css=.gigya-screen:nth-child(15) .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[15]/form/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[15]/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "535a9f27-068d-4a5f-990a-febe118eca83",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-screen:nth-child(15) .gigya-input-password",
+      "targets": [
+        ["css=.gigya-screen:nth-child(15) .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='CIAM-LoginSignIn']/div[15]/form/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[15]/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "cd4729ed-2118-40f2-9bc7-0a5e84b39099",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-valid",
+      "targets": [
+        ["css=.gigya-valid", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "testuiselenium6422@gmail.com"
+    }, {
+      "id": "d2f376e1-b6b6-4429-80ef-6167b522d26a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "%8sd6G)d6dHU?!Z"
+    }, {
+      "id": "0cfa3929-e388-4eac-9f72-98e25549a01e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gigya-valid:nth-child(1)",
+      "targets": [
+        ["css=.gigya-valid:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1b7bf4-abf6-4812-a0f4-cc8c18f5db88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gigya-valid:nth-child(1)",
+      "targets": [
+        ["css=.gigya-valid:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79249bd4-1ad1-4845-86ba-2314cf755c8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=gigya-login-form",
+      "targets": [
+        ["id=gigya-login-form", "id"],
+        ["css=#gigya-login-form", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']", "xpath:attributes"],
+        ["xpath=//div[@id='gigya-login-screen']/form", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c98646c-d58c-45f9-a644-92f3030d5809",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-valid:nth-child(1)",
+      "targets": [
+        ["css=.gigya-valid:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Badwebsitew2131123213@gmail.com"
+    }, {
+      "id": "12d8abd4-26d5-4080-b6b0-08be32a8b5d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=gigya-login-form",
+      "targets": [
+        ["id=gigya-login-form", "id"],
+        ["css=#gigya-login-form", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']", "xpath:attributes"],
+        ["xpath=//div[@id='gigya-login-screen']/form", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a09f2ce2-d095-4c12-9a73-19c82004724b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "fajnfafhnqh2367126236"
+    }, {
+      "id": "78693fc7-f249-440a-bf96-12264be4f0d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='SIGN IN']", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6434285d-7c33-463e-96e0-2ba5282a0243",
+    "name": "TestBadLoginB",
+    "commands": [{
+      "id": "162ce868-4461-47de-b239-4d8b1f8a3110",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e918933b-d093-4ccc-a089-8a6115412775",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eafee29b-3660-4f6c-b416-4b89656d1c9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountLabel_2-flX",
+      "targets": [
+        ["css=.accountLabel_2-flX", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42c72c8-827c-44a5-8a17-9443f10e7cad",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.page-content-container",
+      "targets": [
+        ["css=.page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "0,148"
+    }, {
+      "id": "3e00e679-995c-4f2f-a781-325aaad83794",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.page-content-container",
+      "targets": [
+        ["css=.page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "0,148"
+    }, {
+      "id": "3a4b7d81-8f6d-449e-be04-d671f5e4a237",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.page-content-container",
+      "targets": [
+        ["css=.page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "0,148"
+    }, {
+      "id": "72285992-59b5-4a15-aaa7-08189c889c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-content-container",
+      "targets": [
+        ["css=.page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e1aa8c-7b43-491e-b185-784d70f9e8a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "basemail213131@gmail.com"
+    }, {
+      "id": "c25e7df2-bd3d-4c18-ac44-beb4d1c2c01f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "fhuhfyqwegh263415641264"
+    }, {
+      "id": "1ed8d2a3-6f2c-4101-9a1b-0456dd5d3912",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm",
+      "targets": [
+        ["css=.GSYpm", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5a3f1d3f-8214-4030-8c72-27dc1470b349",
+    "name": "TestBadLoginW",
+    "commands": [{
+      "id": "3c3fd4f4-ff31-422e-95cf-d0ea68dd8f86",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c1f6359-2453-4cdc-a5be-345c2a98d9c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50130c31-3246-4fff-bdd3-ceb27c1c9a66",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-3j1p7g > .css-1f9gjts",
+      "targets": [
+        ["css=.css-3j1p7g > .css-1f9gjts", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a496618-d171-4812-ba05-a2f3fd814167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hl2cc3",
+      "targets": [
+        ["css=.css-hl2cc3", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ed22e33-3b74-467f-8621-f3f28f17105e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "nNymzF62-uiG+wc"
+    }, {
+      "id": "50435606-0a91-4605-a517-8d2237c50a0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-14c8mu4",
+      "targets": [
+        ["css=.css-14c8mu4", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b887632-2d74-4b38-80c2-43dfa32fdaf7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bademail123133@gmail.com"
+    }, {
+      "id": "d47b92ea-1fa2-48c0-a636-1ed78f7435f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-14mhmqp",
+      "targets": [
+        ["css=.css-14mhmqp", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "139afe28-e240-4117-841d-1f8c26898a1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "sfhbfqwsyhfhbhy24516541245215"
+    }, {
+      "id": "aad9f718-b712-4629-b2ba-7fa4d32cb1f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vfxkzw",
+      "targets": [
+        ["css=.css-vfxkzw", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b4bedd1-502e-446b-9041-315e8f4b2ab2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-vfxkzw",
+      "targets": [
+        ["css=.css-vfxkzw", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e377c7bb-2262-47fe-92df-c6475199e9c9",
+    "name": "testBadDirectionsW",
+    "commands": [{
+      "id": "d02190b8-533a-494c-810f-b2baea94253a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "719500c5-8c63-455e-a373-1afa75570d71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1241x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94d76a7a-3ccb-4173-96ab-65751d6b9a2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1v9c0kj",
+      "targets": [
+        ["css=.css-1v9c0kj", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16d3d358-ab1d-4b7c-836f-8acf313a2d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7cd055-5ea6-4e2b-9810-fb907c941108",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='T3C1S3']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a77f2522-1a59-486b-ae19-554a7df6a9eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6",
+      "targets": [
+        ["css=.col-md-6", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f1077b-ffdc-43db-8238-b42edc8f27ae",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-md-6",
+      "targets": [
+        ["css=.col-md-6", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8b5ac8-7968-4be3-956e-a97b981dc5eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='eqfiyhebf8iyqehfi']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "eqfiyhebf8iyqehfi"
+    }, {
+      "id": "3f957d9b-0457-41a3-ad61-269bde6d7c57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-wm-btn",
+      "targets": [
+        ["css=.sfa-wm-btn", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c5580b2e-d794-4c24-b590-a4570b6c6ebd",
+    "name": "testBadPickupW",
+    "commands": [{
+      "id": "a5e9b010-e33c-4987-9af4-e8aed78b12d7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9788989-2244-4a21-9a4f-c7de8be860b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1230x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f9399d7-a19d-42d1-9d5a-8992a77041af",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1k7qv8r",
+      "targets": [
+        ["css=.css-1k7qv8r", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a2db18b-3492-480d-ac59-8124fd2511b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1k7qv8r",
+      "targets": [
+        ["css=.css-1k7qv8r", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ef7031-e944-4c31-9374-9e5f7f7c4f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ek6bj211",
+      "targets": [
+        ["css=.ek6bj211", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b64fbb-c64c-4242-b2b5-310b999c4d9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd241c53-2e26-4fb2-b752-23280d79aea9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-1lo2pik",
+      "targets": [
+        ["css=.css-1lo2pik", "css:finder"],
+        ["xpath=//input[@value='gqwegreghew']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "gqwegreghew"
+    }, {
+      "id": "47d9d35e-2c0a-4ef0-a9f7-f9a2f5b6c725",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-yq4aie",
+      "targets": [
+        ["css=.css-yq4aie", "css:finder"],
+        ["xpath=//input[@value='Find']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "96f63f48-0b78-43af-8061-d58742f82551",
+    "name": "Kevin Suite W",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71f15197-10b3-4973-bce8-48bcace5536c", "773792b8-cf83-4c14-b196-16026a32a482", "5a3f1d3f-8214-4030-8c72-27dc1470b349"]
+  }, {
+    "id": "9e1ea371-0167-4393-b2a2-a664632fdc3e",
+    "name": "Henrique Suite B",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["856bc4f1-eb42-412a-9360-c87336f2c2dd", "5798b6a1-22f8-4542-a580-b37dfa02331c", "6434285d-7c33-463e-96e0-2ba5282a0243"]
+  }, {
+    "id": "be0f6cc2-7402-4bf4-8d7e-0658921be9dd",
+    "name": "Muhammad suite S",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54a4aecd-bc81-41aa-bd52-eb3bbe41f00a", "c0807b43-e12f-414f-8351-d9e5906ecac6", "422ccc16-fc7e-4b05-9b31-7d7f7343be54"]
+  }, {
+    "id": "3e7f835f-1c3f-4ae8-98f2-cea40f394c27",
+    "name": "Benson suite W",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["22c8ffe7-7493-492b-9952-d0cdaf6494cd", "57bb8e3f-3ea8-4e12-9ab9-a11ed1f66e5e", "e377c7bb-2262-47fe-92df-c6475199e9c9", "c5580b2e-d794-4c24-b590-a4570b6c6ebd"]
+  }],
+  "urls": ["https://www.walmart.ca/", "https://www.bestbuy.ca/en-ca", "https://www.sportchek.ca/", "https://www.walmart.ca/en"],
+  "plugins": []
+}
